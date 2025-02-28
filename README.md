@@ -30,6 +30,7 @@ Este es un pequeño proyecto en FastAPI para evaluar habilidades básicas de des
 
 4. **(Bonus) Evitar productos duplicados**  
    - Si el nombre del producto ya existe en `items`, devolver `400 Bad Request`.
+   - Si `price` es negativo o faltan datos, debe devolver `422 Unprocessable Entity`.
 
 5. **Implementar `DELETE /items/{item_id}`**
    - Si el producto existe, debe eliminarlo de `items`.
