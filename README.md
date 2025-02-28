@@ -2,14 +2,18 @@
 
 Este es un pequeño proyecto en FastAPI para evaluar habilidades básicas de desarrollo backend.
 
-
 ## 📂 Instrucciones
 
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/TU_USUARIO/fastapi-jr-test.git
    cd fastapi-jr-test
+   ```
 
+2. Crea un entorno virtual
+
+3. Instala los requerimientos
+   
 ## 📌 Tareas para la prueba técnica
 
 1. **Agregar un nuevo endpoint `POST /items/add`**  
@@ -20,7 +24,7 @@ Este es un pequeño proyecto en FastAPI para evaluar habilidades básicas de des
 2. **Mejorar `GET /items/{item_id}`**  
    - Si el producto no existe, debe devolver un mensaje detallado en JSON, y el respectivo codigo de error `404 Not Found`.
 
-3. **Escribir pruebas unitarias para `POST /items/add`**  
+3. **(Bonus) Escribir pruebas unitarias para `POST /items/add`**  
    - Validar que el producto se agrega correctamente.
    - Validar que si falta un campo, devuelve `400 Bad Request`.
 
