@@ -11,8 +11,15 @@ Este es un pequeño proyecto en FastAPI para evaluar habilidades básicas de des
    ```
 
 2. Crea un entorno virtual
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```
 
 3. Instala los requerimientos
+   ```bash
+   pip install -r requirements.txt
+   ```
    
 ## 📌 Tareas para la prueba técnica
 
